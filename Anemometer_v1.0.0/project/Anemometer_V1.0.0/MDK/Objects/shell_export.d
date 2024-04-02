@@ -1,0 +1,14 @@
+.\objects\shell_export.o: ..\user\export\shell_export.c
+.\objects\shell_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/elab_common.h
+.\objects\shell_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\shell_export.o: ..\user\config\elab_config.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/../os/cmsis_os.h
+.\objects\shell_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h
+.\objects\shell_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/elab_def.h
+.\objects\shell_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/3rd/Shell/shell.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/3rd/Shell/shell_cfg.h
+.\objects\shell_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/elab_log.h

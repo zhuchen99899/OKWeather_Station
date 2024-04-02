@@ -1,0 +1,1705 @@
+Dependencies for Project 'Anemometer', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\..\elab\common\elab_assert.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_assert.o --omf_browse .\objects\elab_assert.crf --depend .\objects\elab_assert.d)
+I (..\..\..\elab\common\elab_def.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\common\elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\common\elab_log.h)(0x653C50B6)
+I (..\..\..\elab\common\../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+F (..\..\..\elab\common\elab_common.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_common.o --omf_browse .\objects\elab_common.crf --depend .\objects\elab_common.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\assert.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\common\elab_common.h)(0x659D29FE)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (..\..\..\elab\common\../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\common\elab_def.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+F (..\..\..\elab\common\elab_export.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_export.o --omf_browse .\objects\elab_export.crf --depend .\objects\elab_export.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\signal.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\elab\common\elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\common\elab_export.h)(0x653C50B6)
+I (..\..\..\elab\common\elab_common.h)(0x659D29FE)
+I (..\..\..\elab\common\../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\common\elab_assert.h)(0x653C50B6)
+I (..\..\..\elab\common\elab_log.h)(0x653C50B6)
+F (..\..\..\elab\common\elab_log.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_log.o --omf_browse .\objects\elab_log.crf --depend .\objects\elab_log.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\common\elab_log.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\common\elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\common\elab_common.h)(0x659D29FE)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (..\..\..\elab\common\../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+F (..\..\..\elab\edf\elab_device.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_device.o --omf_browse .\objects\elab_device.crf --depend .\objects\elab_device.d)
+I (..\..\..\elab\edf\elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\edf\elab_device_def.h)(0x653C50B6)
+I (..\..\..\elab\edf\../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\../common/elab_log.h)(0x653C50B6)
+F (..\..\..\elab\edf\elab_device_null.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_device_null.o --omf_browse .\objects\elab_device_null.crf --depend .\objects\elab_device_null.d)
+I (..\..\..\elab\edf\elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\edf\../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\../common/elab_log.h)(0x653C50B6)
+I (..\..\..\elab\edf\../common/elab_export.h)(0x653C50B6)
+F (..\..\..\elab\edf\normal\elab_pin.c)(0x659D1CBC)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_pin.o --omf_browse .\objects\elab_pin.crf --depend .\objects\elab_pin.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\elab_pin.h)(0x653C50B6)
+I (..\..\..\elab\edf\normal\../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\edf\normal\../../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../../common/elab_log.h)(0x653C50B6)
+F (..\..\..\elab\edf\normal\elab_spi.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_spi.o --omf_browse .\objects\elab_spi.crf --depend .\objects\elab_spi.d)
+I (..\..\..\elab\edf\normal\elab_spi.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\edf\normal\elab_pin.h)(0x653C50B6)
+I (..\..\..\elab\edf\normal\../../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\normal\../../common/elab_log.h)(0x653C50B6)
+F (..\..\..\elab\edf\user\elab_led.c)(0x659BBE7D)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_led.o --omf_browse .\objects\elab_led.crf --depend .\objects\elab_led.d)
+I (..\..\..\elab\edf\user\elab_led.h)(0x653C50B6)
+I (..\..\..\elab\edf\user\../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\user\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\user\../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\elab\edf\user\../normal/elab_pin.h)(0x653C50B6)
+I (..\..\..\elab\edf\user\../../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\elab\edf\user\../../common/elab_log.h)(0x653C50B6)
+F (..\..\..\elab\elib\elib_queue.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elib_queue.o --omf_browse .\objects\elib_queue.crf --depend .\objects\elib_queue.d)
+I (..\..\..\elab\elib\elib_queue.h)(0x659D1ED0)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\elib\../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+F (..\..\..\elab\3rd\Shell\shell.c)(0x659E0778)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\shell.o --omf_browse .\objects\shell.crf --depend .\objects\shell.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\Shell\shell.h)(0x653C50B6)
+I (..\..\..\elab\3rd\Shell\shell_cfg.h)(0x65825D30)
+I (..\..\..\elab\3rd\Shell\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (..\..\..\elab\3rd\Shell\shell_ext.h)(0x653C50B6)
+I (..\..\..\elab\3rd\Shell\../../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\3rd\Shell\../../common/elab_log.h)(0x653C50B6)
+F (..\..\..\elab\3rd\Shell\shell_cmd_list.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\shell_cmd_list.o --omf_browse .\objects\shell_cmd_list.crf --depend .\objects\shell_cmd_list.d)
+I (..\..\..\elab\3rd\Shell\shell.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\Shell\shell_cfg.h)(0x65825D30)
+I (..\..\..\elab\3rd\Shell\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+F (..\..\..\elab\3rd\Shell\shell_companion.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\shell_companion.o --omf_browse .\objects\shell_companion.crf --depend .\objects\shell_companion.d)
+I (..\..\..\elab\3rd\Shell\shell.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\Shell\shell_cfg.h)(0x65825D30)
+I (..\..\..\elab\3rd\Shell\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+F (..\..\..\elab\3rd\Shell\shell_ext.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\shell_ext.o --omf_browse .\objects\shell_ext.crf --depend .\objects\shell_ext.d)
+I (..\..\..\elab\3rd\Shell\shell_cfg.h)(0x65825D30)
+I (..\..\..\elab\3rd\Shell\shell.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\Shell\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\Shell\shell_ext.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\croutine.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/croutine.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\event_groups.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/timers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/event_groups.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\list.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\queue.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/queue.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\stream_buffer.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/stream_buffer.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\tasks.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/timers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/stack_macros.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+F (..\..\..\elab\3rd\FreeRTOS\timers.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include/list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/queue.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include/timers.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\heap_4.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/list.h)(0x653C50B6)
+F (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\port.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\..\..\elab\3rd\FreeRTOS\include\FreeRTOS.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include\list.h)(0x653C50B6)
+F (..\..\..\elab\os\mcu\cmsis_os2.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\cmsis_os2.o --omf_browse .\objects\cmsis_os2.crf --depend .\objects\cmsis_os2.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\elab\os\mcu\cmsis_os2.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\FreeRTOS.h)(0x653C50B6)
+I (..\user\config\FreeRTOSConfig.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\projdefs.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\portable.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\deprecated_definitions.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\mpu_wrappers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\task.h)(0x659D1BCC)
+I (..\..\..\elab\3rd\FreeRTOS\include\list.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\event_groups.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\timers.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\semphr.h)(0x653C50B6)
+I (..\..\..\elab\3rd\FreeRTOS\include\queue.h)(0x653C50B6)
+I (..\..\..\elab\os\mcu\freertos_mpool.h)(0x653C50B6)
+I (..\..\..\elab\os\mcu\freertos_os2.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx_it.c)(0x659E45D3)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_it.o --omf_browse .\objects\stm32g0xx_it.crf --depend .\objects\stm32g0xx_it.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G070\arm\startup_stm32g070xx.s)(0x659E0173)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "STM32G070xx SETA 1"--list .\listings\startup_stm32g070xx.lst --xref -o .\objects\startup_stm32g070xx.o --depend .\objects\startup_stm32g070xx.d)
+F (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.c)(0x659E4F87)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\system_stm32g0xx.o --omf_browse .\objects\system_stm32g0xx.crf --depend .\objects\system_stm32g0xx.d)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal.o --omf_browse .\objects\stm32g0xx_hal.crf --depend .\objects\stm32g0xx_hal.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_cortex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_cortex.o --omf_browse .\objects\stm32g0xx_hal_cortex.crf --depend .\objects\stm32g0xx_hal_cortex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_pwr.o --omf_browse .\objects\stm32g0xx_hal_pwr.crf --depend .\objects\stm32g0xx_hal_pwr.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_pwr_ex.o --omf_browse .\objects\stm32g0xx_hal_pwr_ex.crf --depend .\objects\stm32g0xx_hal_pwr_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_rcc.o --omf_browse .\objects\stm32g0xx_hal_rcc.crf --depend .\objects\stm32g0xx_hal_rcc.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_rcc_ex.o --omf_browse .\objects\stm32g0xx_hal_rcc_ex.crf --depend .\objects\stm32g0xx_hal_rcc_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rtc.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_rtc.o --omf_browse .\objects\stm32g0xx_hal_rtc.crf --depend .\objects\stm32g0xx_hal_rtc.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rtc_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_rtc_ex.o --omf_browse .\objects\stm32g0xx_hal_rtc_ex.crf --depend .\objects\stm32g0xx_hal_rtc_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_spi.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_spi.o --omf_browse .\objects\stm32g0xx_hal_spi.crf --depend .\objects\stm32g0xx_hal_spi.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_spi_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_spi_ex.o --omf_browse .\objects\stm32g0xx_hal_spi_ex.crf --depend .\objects\stm32g0xx_hal_spi_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_tim.o --omf_browse .\objects\stm32g0xx_hal_tim.crf --depend .\objects\stm32g0xx_hal_tim.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_tim_ex.o --omf_browse .\objects\stm32g0xx_hal_tim_ex.crf --depend .\objects\stm32g0xx_hal_tim_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_uart.o --omf_browse .\objects\stm32g0xx_hal_uart.crf --depend .\objects\stm32g0xx_hal_uart.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_uart_ex.o --omf_browse .\objects\stm32g0xx_hal_uart_ex.crf --depend .\objects\stm32g0xx_hal_uart_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_usart.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_usart.o --omf_browse .\objects\stm32g0xx_hal_usart.crf --depend .\objects\stm32g0xx_hal_usart.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_usart_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_usart_ex.o --omf_browse .\objects\stm32g0xx_hal_usart_ex.crf --depend .\objects\stm32g0xx_hal_usart_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_wwdg.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_wwdg.o --omf_browse .\objects\stm32g0xx_hal_wwdg.crf --depend .\objects\stm32g0xx_hal_wwdg.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_iwdg.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_iwdg.o --omf_browse .\objects\stm32g0xx_hal_iwdg.crf --depend .\objects\stm32g0xx_hal_iwdg.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_gpio.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_gpio.o --omf_browse .\objects\stm32g0xx_hal_gpio.crf --depend .\objects\stm32g0xx_hal_gpio.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_dma.o --omf_browse .\objects\stm32g0xx_hal_dma.crf --depend .\objects\stm32g0xx_hal_dma.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma_ex.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\stm32g0xx_hal_dma_ex.o --omf_browse .\objects\stm32g0xx_hal_dma_ex.crf --depend .\objects\stm32g0xx_hal_dma_ex.d)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\user\bsp\bsp.c)(0x659E8BD7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (..\user\bsp\bsp.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_common.h)(0x659D29FE)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+F (..\user\bsp\elab_uart_debug.c)(0x659E0634)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_uart_debug.o --omf_browse .\objects\elab_uart_debug.crf --depend .\objects\elab_uart_debug.d)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_common.h)(0x659D29FE)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\..\Anemometer_v1.0.0\elab/elib/elib_queue.h)(0x659D1ED0)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\user\driver\drv_pin_mcu.c)(0x659DF776)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\drv_pin_mcu.o --omf_browse .\objects\drv_pin_mcu.crf --depend .\objects\drv_pin_mcu.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\user\driver\drv_pin.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/elab_pin.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+I (..\user\driver\drv_util.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_log.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h)(0x653C50B6)
+F (..\user\driver\drv_util.c)(0x653C50B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\drv_util.o --omf_browse .\objects\drv_util.crf --depend .\objects\drv_util.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\user\driver\drv_util.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+F (..\user\driver\drv_spi_bus.c)(0x659E3A5F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\drv_spi_bus.o --omf_browse .\objects\drv_spi_bus.crf --depend .\objects\drv_spi_bus.d)
+F (..\user\device\elab_ms1022.c)(0x659E2E12)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\elab_ms1022.o --omf_browse .\objects\elab_ms1022.crf --depend .\objects\elab_ms1022.d)
+F (..\user\export\shell_export.c)(0x659E064A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\shell_export.o --omf_browse .\objects\shell_export.crf --depend .\objects\shell_export.d)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_common.h)(0x659D29FE)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_def.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/3rd/Shell/shell.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/3rd/Shell/shell_cfg.h)(0x65825D30)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_log.h)(0x653C50B6)
+F (..\user\export\led_export.c)(0x659E2B5E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\led_export.o --omf_browse .\objects\led_export.crf --depend .\objects\led_export.d)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/user/elab_led.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/user/../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/user/../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\user\export\export.h)(0x659D1F95)
+F (..\user\export\pin_export.c)(0x659DFBDD)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\pin_export.o --omf_browse .\objects\pin_export.crf --depend .\objects\pin_export.d)
+I (..\user\export\../driver/drv_pin.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/elab_pin.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/normal/../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h)(0x653C50B6)
+I (..\user\export\export.h)(0x659D1F95)
+F (..\user\config\elab_config.h)(0x659D16AC)()
+F (..\user\config\FreeRTOSConfig.h)(0x653C50B6)()
+F (..\user\config\gb_export.h)(0x659E2E98)()
+F (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)()
+F (..\user\main.c)(0x659E45EB)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\user\bsp/bsp.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+F (..\user\app\led.c)(0x659E4DFA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\..\..\elab\3rd\Shell\../../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\3rd\Shell\../../common/elab_log.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/user/elab_led.h)(0x653C50B6)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/user/../elab_device.h)(0x659D1B99)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (..\..\..\..\Anemometer_v1.0.0\elab/edf/user/../../os/cmsis_os.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\..\Anemometer_v1.0.0\elab/common/elab_common.h)(0x659D29FE)
+I (..\user\app\app.h)(0x659DFA7D)
+F (..\user\test\system_test.c)(0x659E8AB6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user\config -I ..\..\..\elab\3rd\Shell -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc -I ..\..\..\mcu\stm32g070\STM32G070 -I ..\..\..\mcu\stm32g070\CMSIS -I ..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy -I ..\..\..\elab\3rd\FreeRTOS\include -I ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0 -I ..\user -I ..\..\..\..\Anemometer_v1.0.0-ID:\Software\IDE\Keil\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-ID:\Software\IDE\Keil\Uv5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -D__free_rtos__-o .\objects\system_test.o --omf_browse .\objects\system_test.crf --depend .\objects\system_test.d)
+I (..\..\..\elab\3rd\Shell\shell.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\..\..\elab\3rd\Shell\shell_cfg.h)(0x65825D30)
+I (..\..\..\elab\3rd\Shell\../../common/elab_def.h)(0x653C50B6)
+I (..\user\config\elab_config.h)(0x659D16AC)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\stm32g070xx.h)(0x659E013B)
+I (..\..\..\mcu\stm32g070\CMSIS\core_cm0plus.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_version.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_compiler.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\cmsis_armcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\CMSIS\mpu_armv7.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G070\system_stm32g0xx.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x653C50B6)
+I (..\user\config\stm32g0xx_hal_conf.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stddef.h)(0x65530FF9)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x659E4DEF)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart.h)(0x653C50B6)
+I (..\..\..\mcu\stm32g070\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_usart_ex.h)(0x653C50B6)
+I (..\..\..\elab\3rd\Shell\../../common/elab_assert.h)(0x653C50B6)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (D:\Software\IDE\Keil\Uv5\ARM\ARMCC\include\stdbool.h)(0x6556D1CD)
+I (..\..\..\elab\3rd\Shell\../../common/elab_log.h)(0x653C50B6)

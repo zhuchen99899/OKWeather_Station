@@ -1,0 +1,15 @@
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\timers.c
+.\objects\timers.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h
+.\objects\timers.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timers.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timers.o: ..\user\config\FreeRTOSConfig.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/projdefs.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/portable.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/task.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/list.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/queue.h
+.\objects\timers.o: ..\..\..\elab\3rd\FreeRTOS\include/timers.h

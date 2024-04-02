@@ -1,0 +1,14 @@
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\elab_pin.c
+.\objects\elab_pin.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\elab_pin.h
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\../elab_device.h
+.\objects\elab_pin.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\elab_pin.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\../../common/elab_def.h
+.\objects\elab_pin.o: ..\user\config\elab_config.h
+.\objects\elab_pin.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\../../os/cmsis_os.h
+.\objects\elab_pin.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\../../common/elab_assert.h
+.\objects\elab_pin.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\elab_pin.o: ..\..\..\elab\edf\normal\../../common/elab_log.h

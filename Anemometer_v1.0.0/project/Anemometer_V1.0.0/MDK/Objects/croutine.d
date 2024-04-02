@@ -1,0 +1,14 @@
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\croutine.c
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h
+.\objects\croutine.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\croutine.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\croutine.o: ..\user\config\FreeRTOSConfig.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/projdefs.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/portable.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/task.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/list.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/croutine.h
+.\objects\croutine.o: ..\..\..\elab\3rd\FreeRTOS\include/list.h

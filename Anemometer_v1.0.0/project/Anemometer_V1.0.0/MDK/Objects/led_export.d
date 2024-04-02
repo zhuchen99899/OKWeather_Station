@@ -1,0 +1,16 @@
+.\objects\led_export.o: ..\user\export\led_export.c
+.\objects\led_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/elab_export.h
+.\objects\led_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\led_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/common/elab_def.h
+.\objects\led_export.o: ..\user\config\elab_config.h
+.\objects\led_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\led_export.o: ..\..\..\elab\3rd\Shell\../../common/elab_assert.h
+.\objects\led_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\led_export.o: ..\..\..\elab\3rd\Shell\../../common/elab_log.h
+.\objects\led_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/edf/user/elab_led.h
+.\objects\led_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/edf/user/../elab_device.h
+.\objects\led_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\led_export.o: ..\..\..\..\Anemometer_v1.0.0\elab/edf/user/../../os/cmsis_os.h
+.\objects\led_export.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\led_export.o: ..\user\export\export.h

@@ -1,0 +1,13 @@
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\shell.c
+.\objects\shell.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\shell.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\shell.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\shell.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\shell.h
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\shell_cfg.h
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\../../common/elab_def.h
+.\objects\shell.o: ..\user\config\elab_config.h
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\shell_ext.h
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\../../common/elab_assert.h
+.\objects\shell.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\shell.o: ..\..\..\elab\3rd\Shell\../../common/elab_log.h

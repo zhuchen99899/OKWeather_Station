@@ -1,0 +1,13 @@
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\heap_4.c
+.\objects\heap_4.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/FreeRTOS.h
+.\objects\heap_4.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\heap_4.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\heap_4.o: ..\user\config\FreeRTOSConfig.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/projdefs.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/portable.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/deprecated_definitions.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/mpu_wrappers.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/task.h
+.\objects\heap_4.o: ..\..\..\elab\3rd\FreeRTOS\portable\MemMang\../../include/list.h

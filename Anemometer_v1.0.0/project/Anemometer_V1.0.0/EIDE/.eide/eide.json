@@ -1,0 +1,475 @@
+{
+  "name": "Anemometer",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "eLab.3rd.FreeRTOS",
+        "files": [
+          {
+            "path": "../../../elab/3rd/FreeRTOS/croutine.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/event_groups.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/list.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/portable/MemMang/heap_4.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/portable/RVDS/ARM_CM0/port.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/queue.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/stream_buffer.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/tasks.c"
+          },
+          {
+            "path": "../../../elab/3rd/FreeRTOS/timers.c"
+          },
+          {
+            "path": "../../../elab/os/mcu/cmsis_os2.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "eLab.3rd.Shell",
+        "files": [
+          {
+            "path": "../../../elab/3rd/Shell/shell_cmd_list.c"
+          },
+          {
+            "path": "../../../elab/3rd/Shell/shell_companion.c"
+          },
+          {
+            "path": "../../../elab/3rd/Shell/shell_ext.c"
+          },
+          {
+            "path": "../../../elab/3rd/Shell/shell.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "eLab.common",
+        "files": [
+          {
+            "path": "../../../elab/common/elab_assert.c"
+          },
+          {
+            "path": "../../../elab/common/elab_common.c"
+          },
+          {
+            "path": "../../../elab/common/elab_export.c"
+          },
+          {
+            "path": "../../../elab/common/elab_log.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "eLab.edf",
+        "files": [
+          {
+            "path": "../../../elab/edf/elab_device_null.c"
+          },
+          {
+            "path": "../../../elab/edf/elab_device.c"
+          },
+          {
+            "path": "../../../elab/edf/normal/elab_pin.c"
+          },
+          {
+            "path": "../../../elab/edf/normal/elab_spi.c"
+          },
+          {
+            "path": "../../../elab/edf/user/elab_led.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "eLab.elib",
+        "files": [
+          {
+            "path": "../../../elab/elib/elib_queue.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "MCU",
+        "files": [
+          {
+            "path": "../../../mcu/stm32g070/STM32G070/arm/startup_stm32g070xx.s"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G070/stm32g0xx_it.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G070/system_stm32g0xx.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "MCU.HAL",
+        "files": [
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_iwdg.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rtc_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rtc.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c"
+          },
+          {
+            "path": "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.App",
+        "files": [
+          {
+            "path": "../user/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.Bsp",
+        "files": [
+          {
+            "path": "../user/bsp/bsp.c"
+          },
+          {
+            "path": "../user/bsp/elab_uart_debug.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.Config",
+        "files": [
+          {
+            "path": "../user/config/elab_config.h"
+          },
+          {
+            "path": "../user/config/FreeRTOSConfig.h"
+          },
+          {
+            "path": "../user/config/gb_export.h"
+          },
+          {
+            "path": "../user/config/stm32g0xx_hal_conf.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.Device",
+        "files": [
+          {
+            "path": "../user/device/elab_74hc4052d.c"
+          },
+          {
+            "path": "../user/device/elab_anemometer.c"
+          },
+          {
+            "path": "../user/device/elab_ms1022.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.Driver",
+        "files": [
+          {
+            "path": "../user/driver/drv_pin_mcu.c"
+          },
+          {
+            "path": "../user/driver/drv_spi_bus.c"
+          },
+          {
+            "path": "../user/driver/drv_util.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.Export",
+        "files": [
+          {
+            "path": "../user/export/led_export.c"
+          },
+          {
+            "path": "../user/export/pin_export.c"
+          },
+          {
+            "path": "../user/export/shell_export.c"
+          },
+          {
+            "path": "../user/export/spi_export.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User.Test",
+        "files": [
+          {
+            "path": "../user/test/ms1022_test.c"
+          },
+          {
+            "path": "../user/test/system_test.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "8c6057f31fa2ab3b4dc97333d7e3daf8"
+  },
+  "targets": {
+    "Target_1": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M0+",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x9000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/target_1.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../user/config",
+          "../../../elab/3rd/Shell",
+          "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Inc",
+          "../../../mcu/stm32g070/STM32G070",
+          "../../../mcu/stm32g070/CMSIS",
+          "../../../mcu/stm32g070/STM32G0xx_HAL_Driver/Inc/Legacy",
+          "../../../elab/3rd/FreeRTOS/include",
+          "../../../elab/3rd/FreeRTOS/portable/RVDS/ARM_CM0",
+          "../user",
+          "../../..",
+          ".cmsis/include",
+          "../MDK/RTE/_Target_1",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32G070xx",
+          "__free_rtos__"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

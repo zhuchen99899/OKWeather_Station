@@ -1,0 +1,17 @@
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\tasks.c
+.\objects\tasks.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tasks.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/FreeRTOS.h
+.\objects\tasks.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tasks.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tasks.o: ..\user\config\FreeRTOSConfig.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/projdefs.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/portable.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/deprecated_definitions.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/mpu_wrappers.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/task.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/list.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/timers.h
+.\objects\tasks.o: ..\..\..\elab\3rd\FreeRTOS\include/stack_macros.h
+.\objects\tasks.o: D:\Software\IDE\Keil\Uv5\ARM\ARMCC\Bin\..\include\stdio.h
