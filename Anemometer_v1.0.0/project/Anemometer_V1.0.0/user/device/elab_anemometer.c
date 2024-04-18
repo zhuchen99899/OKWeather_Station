@@ -50,23 +50,20 @@ static void _timer_func(void *argument); //os定时器回调函数
  * @param receive_name  接收切换
  */
 void elab_anemometer_register(elab_anemometer_t *me,const char *name,
-                                const char *ms1022_name,const char *fire_name,
-                                const char *receive_name)
+                                const char *ultrasonic_name)
 {
     elab_assert(me != NULL);
     elab_assert(name != NULL);
-    elab_assert(ms1022_name != NULL);
-    elab_assert(receive_name != NULL);
+    elab_assert(ultrasonic_name != NULL);
+
 
     elab_assert(!elab_device_valid(name));
-    elab_assert(elab_device_valid(ms1022_name));
-    elab_assert(elab_device_valid(receive_name));
+    elab_assert(elab_device_valid(ultrasonic_name));
+
 
     osStatus_t ret_os = osOK;
+    me->ultrasonic =elab_device_find(ultrasonic_name);
 
-    me->ms1022 = elab_device_find(ms1022_name);
-    me->fire_74hc4052 = elab_device_find(fire_name);
-    me->receive_74hc4052 = elab_device_find(receive_name);
 
     //poll定时器
     me->timer = osTimerNew(_timer_func, osTimerPeriodic, me, &timer_attr_anemometer);
@@ -91,80 +88,79 @@ void elab_anemometer_register(elab_anemometer_t *me,const char *name,
 
 /**
  * @brief 设置超声波方向
- * 
  * @param me 
  * @param channel  方向 枚举
  * @note 自动使能 enable
  */
-static void elab_anemometer_Set_Channel(elab_anemometer_t *anemometer,elab_anemometer_channel_t channel)
-{
+// static void elab_anemometer_Set_Channel(elab_anemometer_t *anemometer,elab_anemometer_channel_t channel)
+// {
 
-    assert(anemometer != NULL);
+//     assert(anemometer != NULL);
 
-    switch (channel)
-    {
-    case CHANNEL_ANEMOMETER_NORTH_TO_SOUTH: //北->南
-    ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY1);
-    ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY3);
-    anemometer->channel=CHANNEL_ANEMOMETER_NORTH_TO_SOUTH;
-        break;
-    case CHANNEL_ANEMOMETER_SOUTH_TO_NORTH://南->北
-    ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY3);
-    ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY1);
-    anemometer->channel=CHANNEL_ANEMOMETER_SOUTH_TO_NORTH;
-        break;
+//     switch (channel)
+//     {
+//     case CHANNEL_ANEMOMETER_NORTH_TO_SOUTH: //北->南
+//     ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY1);
+//     ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY3);
+//     anemometer->channel=CHANNEL_ANEMOMETER_NORTH_TO_SOUTH;
+//         break;
+//     case CHANNEL_ANEMOMETER_SOUTH_TO_NORTH://南->北
+//     ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY3);
+//     ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY1);
+//     anemometer->channel=CHANNEL_ANEMOMETER_SOUTH_TO_NORTH;
+//         break;
         
-    case CHANNEL_ANEMOMETER_EAST_TO_WEST://东->西
-    ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY0);
-    ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY2);
-    anemometer->channel=CHANNEL_ANEMOMETER_EAST_TO_WEST;
-        break;   
+//     case CHANNEL_ANEMOMETER_EAST_TO_WEST://东->西
+//     ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY0);
+//     ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY2);
+//     anemometer->channel=CHANNEL_ANEMOMETER_EAST_TO_WEST;
+//         break;   
 
-    case CHANNEL_ANEMOMETER_WEST_TO_EAST://西->东
-    ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY2);
-    ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY0);
-    anemometer->channel=CHANNEL_ANEMOMETER_WEST_TO_EAST;
-        break;
+//     case CHANNEL_ANEMOMETER_WEST_TO_EAST://西->东
+//     ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY2);
+//     ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY0);
+//     anemometer->channel=CHANNEL_ANEMOMETER_WEST_TO_EAST;
+//         break;
 
-    case CHANNEL_DISABLE_ANEMOMETER: //不设置方向
-    ic_74hc405d_disable(anemometer->fire_74hc4052);
-    ic_74hc405d_disable(anemometer->receive_74hc4052);
-    anemometer->channel=CHANNEL_DISABLE_ANEMOMETER;
-        break;
+//     case CHANNEL_DISABLE_ANEMOMETER: //不设置方向
+//     ic_74hc405d_disable(anemometer->fire_74hc4052);
+//     ic_74hc405d_disable(anemometer->receive_74hc4052);
+//     anemometer->channel=CHANNEL_DISABLE_ANEMOMETER;
+//         break;
 
-    case CHANNEL_ANEMOMETER_TEST: //同一超声波探头
-    ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY1);
-    ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY1);
-    anemometer->channel=CHANNEL_DISABLE_ANEMOMETER;
-        break;
+//     case CHANNEL_ANEMOMETER_TEST: //同一超声波探头
+//     ic_74hc4052d_switch(anemometer->fire_74hc4052,CHANNEL_74HC4052D_NY1);
+//     ic_74hc4052d_switch(anemometer->receive_74hc4052,CHANNEL_74HC4052D_NY1);
+//     anemometer->channel=CHANNEL_DISABLE_ANEMOMETER;
+//         break;
 
-    default:
+//     default:
 
-        break;
-    }
-}
+//         break;
+//     }
+// }
 
 /**
  * @brief 获取一次TOF
  * 
  * @param me 
  */
-static void elab_anemometer_get_TOF(elab_anemometer_t *anemometer,elab_anemometer_channel_t channel)
-{
+// static void elab_anemometer_get_TOF(elab_anemometer_t *anemometer,elab_anemometer_channel_t channel)
+// {
 
-    assert(anemometer != NULL);
-    float data;
-    elab_anemometer_Set_Channel(anemometer,channel);
+    // assert(anemometer != NULL);
+    // float data;
+    // elab_anemometer_Set_Channel(anemometer,channel);
     
-    elab_ms1022_send_cmd(anemometer->ms1022,MS1022CMD_Init);
-    elab_ms1022_send_cmd(anemometer->ms1022,MS1022CMD_Start_TOF);
-    elab_ms1022_wait_int(anemometer->ms1022);
+    // elab_ms1022_send_cmd(anemometer->ms1022,MS1022CMD_Init);
+    // elab_ms1022_send_cmd(anemometer->ms1022,MS1022CMD_Start_TOF);
+    // elab_ms1022_wait_int(anemometer->ms1022);
 
-    elab_ms1022_read_error_bit(anemometer->ms1022);
-    data=elab_ms1022_read_TOF(anemometer->ms1022);
-    elog_debug("data=%f",data);
+    // elab_ms1022_read_error_bit(anemometer->ms1022);
+    // data=elab_ms1022_read_TOF(anemometer->ms1022);
+    // elog_debug("data=%f",data);
     
-}
+// }
 
 
 
@@ -174,13 +170,16 @@ static void elab_anemometer_get_TOF(elab_anemometer_t *anemometer,elab_anemomete
  * 
  * @param me 
  */
-static void elab_anemometer_calculate_wind_speed(elab_anemometer_t *anemometer,elab_anemometer_channel_t channel)
+static void elab_anemometer_calculate_wind_speed(elab_anemometer_t *anemometer)
 {
     
     assert(anemometer != NULL);
-    elab_ms1022_freq_corr_fact(anemometer->ms1022);
-    elab_anemometer_get_TOF(anemometer,channel);
+    float data= elab_ultransonic_get_fly_time(anemometer->ultrasonic);      
+    // elab_ms1022_freq_corr_fact(anemometer->ms1022);
+    // elab_anemometer_get_TOF(anemometer,channel);
+    elog_debug("data%f",data);
 }
+
 
 
 //public functions
@@ -236,7 +235,7 @@ static void _timer_func(void *argument)
     {
         if (osKernelGetTickCount() >= anemometer->time_out) //溢出
         {
-            elab_anemometer_calculate_wind_speed(anemometer,CHANNEL_ANEMOMETER_NORTH_TO_SOUTH);
+            elab_anemometer_calculate_wind_speed(anemometer);
             anemometer->time_out += anemometer->period_ms; //下一个溢出时间
         }
     }
