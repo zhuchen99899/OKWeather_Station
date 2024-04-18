@@ -550,6 +550,27 @@ exit:
    return ret;
 }
 
+/**
+ * @brief ms1022开启一次tof周期计算
+ * 
+ * @param me ms1022设备
+ * @return float 
+ */
+float caculate_tof(elab_device_t *const me)
+{
+   assert(me != NULL);
+
+   elab_ms1022_freq_corr_fact(me);
+
+   elab_ms1022_send_cmd(me,MS1022CMD_Init);
+   elab_ms1022_send_cmd(me,MS1022CMD_Start_TOF);
+   elab_ms1022_wait_int(me);
+
+   elab_ms1022_read_error_bit(me);
+   float data=elab_ms1022_read_TOF(me);
+   return data;
+}
+
 #ifdef __cplusplus
 }
 

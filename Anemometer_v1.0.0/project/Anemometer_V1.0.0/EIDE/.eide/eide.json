@@ -245,6 +245,9 @@
           },
           {
             "path": "../user/device/elab_ms1022.c"
+          },
+          {
+            "path": "../user/device/elab_ultrasonic.c"
           }
         ],
         "folders": []

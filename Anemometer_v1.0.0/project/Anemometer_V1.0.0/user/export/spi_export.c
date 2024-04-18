@@ -10,10 +10,12 @@
 #include "export.h"
 #include "./device/elab_ms1022.h"
 #include "./device/elab_anemometer.h"
+#include "./device/elab_ultrasonic.h"
 /* private variables -------------------------------------------------------- */
 static elab_spi_t spi_ms1022;
 static elab_spidev_ms1022_t ms1022;
 static elab_anemometer_t anemometer;
+static elab_ultrasonic_t ultrasonic;
 /* public functions --------------------------------------------------------- */
 static void driver_spi_export(void)
 {
@@ -36,10 +38,20 @@ elab_ms1022_register(&ms1022,"ms1022","spi_ms1022","pin_ms1022_intn");
 
 INIT_EXPORT(spi_device_export,EXPORT_LEVEL_USR_MS1022);
 
+
+static void elab_ultrasonic_export(void)
+{
+
+elab_ultrasonic_register(&ultrasonic,"ultrasonic_test",
+                                "ms1022");
+}
+INIT_EXPORT(elab_ultrasonic_export,EXPORT_LEVEL_USR_ULTRASONIC);
+
 static void anemometer_export(void)
 {
 
-elab_anemometer_register(&anemometer,"anemometer1","ms1022","fire_74hc4052d","ut_receive_74hc4052d");    
+//elab_anemometer_register(&anemometer,"anemometer1","ms1022","fire_74hc4052d","ut_receive_74hc4052d"); 
+elab_anemometer_register(&anemometer,"anemometer1","ultrasonic_test");    
 }
 INIT_EXPORT(anemometer_export,EXPORT_LEVEL_USR_ANEMOMETER);
 /* ----------------------------- end of file -------------------------------- */

@@ -332,4 +332,6 @@ float elab_ms1022_freq_corr_fact(elab_device_t *const me);
 uint16_t elab_ms1022_read_error_bit(elab_device_t *const me);
 void elab_ms1022_wait_int(elab_device_t *const me);
 void elab_ms1022_send_cmd(elab_device_t *const me,uint8_t cmd);
+
+float caculate_tof(elab_device_t *const me);
 #endif

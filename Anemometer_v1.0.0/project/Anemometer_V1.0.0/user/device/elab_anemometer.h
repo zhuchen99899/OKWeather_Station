@@ -8,14 +8,16 @@
 typedef struct elab_anemometer
 {
 elab_device_t super;        //设备层基类
-elab_device_t *ms1022;      //基于ms1022飞行时间芯片方案
-elab_device_t *fire_74hc4052; //fire切换
-elab_device_t *receive_74hc4052; //接收切换
+elab_device_t *ultrasonic;   //超声波基类
+// elab_device_t *ms1022;      //基于ms1022飞行时间芯片方案
+// elab_device_t *fire_74hc4052; //fire切换
+// elab_device_t *receive_74hc4052; //接收切换
 osTimerId_t timer;
 uint32_t period_ms;
 uint32_t time_out;
-uint8_t channel;
 uint8_t mode;
+// uint8_t channel;
+
 }elab_anemometer_t;
 
 #define ELAB_ANEMOMETER_CAST(_dev)           ((elab_anemometer_t *)_dev)
@@ -41,8 +43,7 @@ enum elab_led_mode
 
 /*public_function*/
 void elab_anemometer_register(elab_anemometer_t *me,const char *name,
-                                const char *ms1022_name,const char *fire_name,
-                                const char *receive_name);
+                                const char *ultrasonic_name);
 void elab_anemometer_period(elab_device_t *const me, uint32_t period_ms);
 void elab_anemometer_stop(elab_device_t *const me);
 #endif // !__ANEMOMETER_H_
